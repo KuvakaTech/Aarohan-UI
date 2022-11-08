@@ -1,0 +1,111 @@
+.container {
+  padding: 80px 0;
+  width: 100%;
+
+  max-width: 1520px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  font-family: "Sharp Sans";
+  font-style: normal;
+  color: #260e17;
+
+  @media (max-width: 1440px) {
+    max-width: 1200px;
+    padding: 64px 0;
+  }
+
+  @media (max-width: 1200px) {
+    max-width: 992px;
+  }
+
+  @media (max-width: 922px) {
+    max-width: 768px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 576px;
+  }
+
+  @media (max-width: 576px) {
+    max-width: 480px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 32px;
+    text-transform: uppercase;
+  }
+
+  .content {
+    width: 80%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .pointsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+
+    .point {
+      width: 100%;
+      height: 164px;
+      box-shadow: 0px 0px 40px rgba(49, 17, 28, 0.15);
+      border-radius: 16px;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 48px;
+
+      .pointNumber {
+        height: 100%;
+        min-width: 140px;
+        max-width: 140px;
+        background: #31111c;
+        box-shadow: 4px 0px 16px rgba(49, 17, 28, 0.25);
+        border-radius: 16px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-family: "Sharp Sans";
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 64px;
+        line-height: 80px;
+        padding-top: 12px;
+        text-align: center;
+        color: white;
+      }
+
+      .pointText {
+        width: fit-content;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 42px;
+      }
+    }
+  }
+}

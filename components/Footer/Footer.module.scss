@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  background: url("/FooterBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  font-family: "Sharp Sans";
+  font-style: normal;
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+
+  .Logo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+
+    border-top: 3px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 3px solid rgba(255, 255, 255, 0.3);
+
+    img {
+      height: 36px;
+    }
+  }
+
+  .waitlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 10px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+
+    .inputBox {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      background: #ffcdde;
+      border-radius: 28px;
+      padding: 10px 20px;
+
+      svg {
+        outline-color: #31111c;
+        stroke: #31111c;
+      }
+
+      input {
+        background-color: transparent;
+        outline: none;
+        border: none;
+        color: #31111c;
+        padding: 2px 8px;
+        font-family: "Sharp Sans";
+        font-style: normal;
+        font-size: 16px;
+      }
+
+      input::placeholder {
+        font-family: "Sharp Sans";
+        font-style: normal;
+        color: #f6b0c8;
+      }
+    }
+  }
+
+  .email {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 40px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px;
+      border-radius: 50%;
+      font-size: 24px;
+      background-color: #b65a79;
+    }
+  }
+}

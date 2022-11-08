@@ -1,0 +1,86 @@
+.container {
+  height: auto;
+  padding: 120px 0;
+  width: 100%;
+  max-width: 1520px;
+  margin: 0 auto;
+
+  font-family: "Sharp Sans";
+  font-style: normal;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+
+  @media (max-width: 1440px) {
+    max-width: 1200px;
+  }
+
+  @media (max-width: 1200px) {
+    max-width: 992px;
+  }
+
+  @media (max-width: 922px) {
+    max-width: 768px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 576px;
+  }
+
+  @media (max-width: 576px) {
+    max-width: 480px;
+  }
+
+  @media (max-width: 480px) {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: 32px;
+    text-transform: uppercase;
+  }
+
+  .content {
+    width: 80%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .tilesContainer {
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .tile {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 16px;
+      margin: 40px 0;
+
+      .tileTitle {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

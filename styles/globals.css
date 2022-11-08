@@ -1,9 +1,43 @@
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("../fonts/Sharp\ Sans/Sharp Sans.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("../fonts/Sharp\ Sans/Sharp Sans Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("../fonts/Sharp\ Sans/Sharp Sans Semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("../fonts/Sharp\ Sans/SharpSansBold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sharp Sans";
+  src: url("../fonts/Sharp\ Sans/Sharp Sans Extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Sharp Sans";
 }
 
 a {
@@ -20,7 +54,7 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
+    background-color: white;
+    color: black;
   }
 }
