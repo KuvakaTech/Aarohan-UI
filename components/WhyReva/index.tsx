@@ -7,7 +7,7 @@ type WhyRevaProps = {};
 export const WhyReva = ({}: WhyRevaProps): JSX.Element => {
   return (
     <div className={style.container}>
-      <img src="/RevaBg.png" alt="BG" className={style.background} />
+      <img src="/RevaBG.png" alt="BG" className={style.background} />
       <div className={style.revaContainer}>
         <img src="/WhyReva.png" alt="Why Reva" />
         <AboutUs />
