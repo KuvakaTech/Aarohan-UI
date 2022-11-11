@@ -27,6 +27,11 @@
 
     img {
       height: 36px;
+
+      @media screen and (max-width: 480px) {
+        height: auto;
+        width: 320px;
+      }
     }
   }
 
@@ -53,6 +58,10 @@
       border-radius: 28px;
       padding: 10px 20px;
 
+      @media screen and (max-width: 480px) {
+        padding: 8px 16px;
+      }
+
       svg {
         outline-color: #31111c;
         stroke: #31111c;
@@ -75,12 +84,22 @@
         color: #f6b0c8;
       }
     }
+
+    @media screen and (max-width: 480px) {
+      font-size: 18px;
+      line-height: 24px;
+    }
   }
 
   .email {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+
+    @media screen and (max-width: 480px) {
+      font-size: 14px;
+      line-height: 20px;
+    }
   }
 
   .links {
@@ -98,6 +117,13 @@
       border-radius: 50%;
       font-size: 24px;
       background-color: #b65a79;
+    }
+
+    @media screen and (max-width: 480px) {
+      a {
+        font-size: 16px;
+        padding: 8px;
+      }
     }
   }
 }

@@ -37,7 +37,7 @@
 
   @media (max-width: 480px) {
     max-width: 100%;
-    padding: 0 16px;
+    padding: 80px 16px;
   }
 
   .title {
@@ -47,6 +47,17 @@
     text-align: center;
     letter-spacing: 32px;
     text-transform: uppercase;
+
+    @media (max-width: 768px) {
+      font-size: 40px;
+      line-height: 56px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 32px;
+      line-height: 48px;
+      letter-spacing: 16px;
+    }
   }
 
   .content {
@@ -55,6 +66,16 @@
     font-size: 24px;
     line-height: 32px;
     text-align: center;
+
+    @media screen and (max-width: 768px) {
+      font-size: 20px;
+      line-height: 28px;
+    }
+
+    @media screen and (max-width: 480px) {
+      font-size: 16px;
+      line-height: 24px;
+    }
   }
 
   .productImg {
@@ -65,31 +86,14 @@
 
     img {
       width: 80%;
+
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+
+      @media screen and (max-width: 480px) {
+        width: 100%;
+      }
     }
   }
 }
-
-// .bg1 {
-//   clip-path: polygon(100% 0, 0 100%, 100% 100%);
-//   background-color: #260e17;
-//   height: 60%;
-//   width: 100%;
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-
-//   @media screen and (max-width: 1440px) {
-//     height: 50%;
-//   }
-// }
-
-// .bg2 {
-//   position: absolute;
-//   bottom: 405px;
-//   left: 50%;
-//   transform: translateX(-50%);
-
-//   @media screen and (max-width: 1440px) {
-//     display: none;
-//   }
-// }

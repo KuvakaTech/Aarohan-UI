@@ -10,7 +10,7 @@ export const Landing = ({}: LandingProps): JSX.Element => {
         <div className={style.landingContent}>
           <h1 className={style.landingTitle}>REVA</h1>
           <p className={style.landingDescription}>
-            Introducing “REVA- The Nutritrap” through which we “Arohan Agri Pvt
+            Introducing “REVA- The Nutritrap” through which we “Aarohan Agri Pvt
             Ltd” are striving to provide the purest and bestest form of
             nutrition. It is an advance machine in the field of rural
             technology, aimed to serve the edible market with the advanced yet

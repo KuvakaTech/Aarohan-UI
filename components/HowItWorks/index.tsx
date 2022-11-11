@@ -12,7 +12,7 @@ export const HowItWorks = ({}: HowItWorksProps): JSX.Element => {
         our practices and principles. The machine, thus operates according to
         the basic principle:
       </div>
-      <img src="/HowItWorks.png" alt="HowItWorks" />
+      <img src="/HowItWorks.png" alt="HowItWorks" className={style.worksImg} />
 
       <div className={style.pointsContainer}>
         <div className={style.point}>

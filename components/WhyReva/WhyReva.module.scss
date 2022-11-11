@@ -5,6 +5,8 @@
   margin: 0 auto;
   position: relative;
 
+  overflow-x: hidden;
+
   @media (max-width: 1440px) {
     max-width: 1200px;
   }
@@ -28,12 +30,22 @@
   @media (max-width: 480px) {
     max-width: 100%;
     padding: 0 16px;
+    margin: 0 auto 48px;
+    height: auto;
   }
 
   .background {
     position: absolute;
     width: 100%;
     z-index: 5;
+
+    @media (max-width: 480px) {
+      height: 90%;
+      width: 90%;
+      display: none;
+      left: 50%;
+      transform: translateX(-50%);
+    }
   }
 
   .revaContainer {
@@ -47,8 +59,18 @@
     justify-content: center;
     flex-direction: column;
 
+    @media screen and (max-width: 480px) {
+      position: unset;
+      background-color: #f4f4f4;
+      border-radius: 16px;
+    }
+
     img {
       width: 90%;
+    }
+
+    @media screen and (max-width: 480px) {
+      padding: 48px 0;
     }
   }
 }
