@@ -1,10 +1,10 @@
 .container {
-  height: 125vw;
+  height: auto;
   width: 100%;
   max-width: 1520px;
   margin: 0 auto;
   position: relative;
-
+  padding: 80px 0;
   overflow-x: hidden;
 
   @media (max-width: 1440px) {
@@ -31,22 +31,21 @@
     max-width: 100%;
     padding: 0 16px;
     margin: 0 auto 48px;
-    height: auto;
   }
 
-  .background {
-    position: absolute;
-    width: 100%;
-    z-index: 5;
+  // .background {
+  //   position: absolute;
+  //   width: 100%;
+  //   z-index: 5;
 
-    @media (max-width: 480px) {
-      height: 90%;
-      width: 90%;
-      display: none;
-      left: 50%;
-      transform: translateX(-50%);
-    }
-  }
+  //   @media (max-width: 480px) {
+  //     height: 90%;
+  //     width: 90%;
+  //     display: none;
+  //     left: 50%;
+  //     transform: translateX(-50%);
+  //   }
+  // }
 
   .revaContainer {
     position: absolute;
@@ -59,11 +58,15 @@
     justify-content: center;
     flex-direction: column;
 
-    @media screen and (max-width: 480px) {
-      position: unset;
-      background-color: #f4f4f4;
-      border-radius: 16px;
-    }
+    position: unset;
+    background-color: #f4f4f4;
+    background: url("/RevaBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    // @media screen and (max-width: 480px) {
+    // }
 
     img {
       width: 90%;
