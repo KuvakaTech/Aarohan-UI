@@ -5,7 +5,7 @@ type AboutUsProps = {};
 
 export const AboutUs = ({}: AboutUsProps): JSX.Element => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="AboutUs">
       <div className={style.title}>About Us</div>
       <div className={style.content}>
         <span className={style.boldText}> Aarohan Agri Products Pvt Ltd</span>{" "}

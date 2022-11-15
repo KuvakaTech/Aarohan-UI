@@ -5,7 +5,7 @@ type HowItWorksProps = {};
 
 export const HowItWorks = ({}: HowItWorksProps): JSX.Element => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="HowItWorks">
       <div className={style.title}>How It Works</div>
       <div className={style.content}>
         Green India is not just a concept here, we believe in replicating it in

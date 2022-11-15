@@ -5,7 +5,7 @@ type EfficacyProps = {};
 
 export const Efficacy = ({}: EfficacyProps): JSX.Element => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="Efficacy">
       <div className={style.title}>Efficacy</div>
       <div className={style.content}>
         Hey, find out some other products that can be sundried using REVA - the

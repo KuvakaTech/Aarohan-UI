@@ -5,7 +5,7 @@ type ProductProps = {};
 
 export const Product = ({}: ProductProps): JSX.Element => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="Product">
       {/* <div className={style.bg1}></div>
       <img src="/ProductBG.png" alt="BG" className={style.bg2} /> */}
       <div className={style.title}>Product</div>

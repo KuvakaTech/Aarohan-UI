@@ -5,7 +5,7 @@ type LandingProps = {};
 
 export const Landing = ({}: LandingProps): JSX.Element => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="Home">
       <div className={style.landingContainer}>
         <div className={style.landingContent}>
           <h1 className={style.landingTitle}>REVA</h1>

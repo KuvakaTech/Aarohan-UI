@@ -26,37 +26,37 @@ export const Navbar = ({}: NavbarProps): JSX.Element => {
         <div className={open ? styles.navigation : styles.open}>
           <div className={styles.navLinks}>
             <div className={styles.navItem}>
-              <Link href="/" passHref>
+              <Link href="#Home" passHref>
                 <p className={styles.text}>Home</p>
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="/" passHref>
+              <Link href="#HowItWorks" passHref>
                 <p className={styles.text}>How it works</p>
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="/" passHref>
+              <Link href="#Product" passHref>
                 <p className={styles.text}>Product</p>
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="/" passHref>
+              <Link href="#Efficacy" passHref>
                 <p className={styles.text}>Efficacy</p>
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="/" passHref>
+              <Link href="#WhyReva" passHref>
                 <p className={styles.text}>Why</p>
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="/" passHref>
+              <Link href="#AboutUs" passHref>
                 <p className={styles.text}>About us</p>
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="/" passHref>
+              <Link href="#ContactUs" passHref>
                 <p className={styles.text}>Contact</p>
               </Link>
             </div>

@@ -18,7 +18,7 @@ type FooterProps = {};
 
 export const Footer = ({}: FooterProps): JSX.Element => {
   return (
-    <div className={style.container}>
+    <div className={style.container} id="ContactUs">
       <div className={style.Logo}>
         <img src="/FooterLogo.png" alt="Logo" />
       </div>
@@ -53,6 +53,10 @@ export const Footer = ({}: FooterProps): JSX.Element => {
         <Link href="/">
           <FaTelegramPlane />
         </Link>
+      </div>
+
+      <div className={style.builtThreeway}>
+        <img src="/Threeway.png" alt="Built with Threeway" />
       </div>
     </div>
   );
