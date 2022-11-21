@@ -44,7 +44,7 @@ export const Footer = ({}: FooterProps): JSX.Element => {
         <Link href="/">
           <FaLinkedinIn />
         </Link>
-        <Link href="/">
+        <Link href="https://www.instagram.com/aarohan.reva">
           <FaInstagram />
         </Link>
         <Link href="/">
@@ -56,7 +56,9 @@ export const Footer = ({}: FooterProps): JSX.Element => {
       </div>
 
       <div className={style.builtThreeway}>
-        <img src="/Threeway.png" alt="Built with Threeway" />
+        <Link href="https://www.threeway.studio/">
+          <img src="/Threeway.png" alt="Built with Threeway" />
+        </Link>
       </div>
     </div>
   );

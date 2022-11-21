@@ -3,10 +3,13 @@ import Head from "next/head";
 import {
   Navbar,
   Landing,
-  HowItWorks,
+  Purpose,
   Product,
   Efficacy,
   WhyReva,
+  AboutUs,
+  Pillars,
+  Gallery,
   Footer,
   Copyright,
 } from "../components";
@@ -23,12 +26,16 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Landing />
-        <HowItWorks />
+        <WhyReva />
+        {/* <HowItWorks /> */}
         <div className={styles.bgSection}>
           <Product />
           <Efficacy />
-          <WhyReva />
+          <Gallery />
+          <Purpose />
+          <Pillars />
         </div>
+        <AboutUs />
         <Footer />
         <Copyright />
       </main>

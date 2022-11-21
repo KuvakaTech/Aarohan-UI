@@ -1,79 +1,59 @@
-.container {
-  height: auto;
+.whyReva {
+  background-color: #ffffff;
   width: 100%;
-  max-width: 1520px;
-  margin: 0 auto;
-  position: relative;
-  padding: 80px 0;
-  overflow-x: hidden;
+  background: url("/RevaBG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
-  @media (max-width: 1440px) {
-    max-width: 1200px;
-  }
-
-  @media (max-width: 1200px) {
-    max-width: 992px;
-  }
-
-  @media (max-width: 922px) {
-    max-width: 768px;
-  }
-
-  @media (max-width: 768px) {
-    max-width: 576px;
-  }
-
-  @media (max-width: 576px) {
-    max-width: 480px;
-  }
-
-  @media (max-width: 480px) {
-    max-width: 100%;
-    padding: 0 16px;
-    margin: 0 auto 48px;
-  }
-
-  // .background {
-  //   position: absolute;
-  //   width: 100%;
-  //   z-index: 5;
-
-  //   @media (max-width: 480px) {
-  //     height: 90%;
-  //     width: 90%;
-  //     display: none;
-  //     left: 50%;
-  //     transform: translateX(-50%);
-  //   }
-  // }
-
-  .revaContainer {
-    position: absolute;
-    z-index: 10;
-    padding: 80px 0;
+  .container {
+    height: auto;
     width: 100%;
+    max-width: 1520px;
+    margin: 0 auto;
+    position: relative;
+    padding: 120px 0;
+    overflow-x: hidden;
 
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    position: unset;
-    background-color: #f4f4f4;
-    background: url("/RevaBG.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 16px;
-    // @media screen and (max-width: 480px) {
-    // }
-
-    img {
-      width: 75%;
+    @media (max-width: 1440px) {
+      max-width: 1200px;
     }
 
-    @media screen and (max-width: 480px) {
-      padding: 48px 0;
+    @media (max-width: 1200px) {
+      max-width: 992px;
+    }
+
+    @media (max-width: 922px) {
+      max-width: 768px;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 576px;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 480px;
+    }
+
+    @media (max-width: 480px) {
+      max-width: 100%;
+      padding: 48px 16px;
+      margin: 0 auto;
+    }
+
+    img {
+      margin-left: 60px;
+      width: 70%;
+
+      @media (max-width: 992px) {
+        margin-left: 0;
+        width: 80%;
+      }
     }
   }
 }

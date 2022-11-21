@@ -31,8 +31,8 @@ export const Navbar = ({}: NavbarProps): JSX.Element => {
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="#HowItWorks" passHref>
-                <p className={styles.text}>How it works</p>
+              <Link href="#WhyReva" passHref>
+                <p className={styles.text}>Why</p>
               </Link>
             </div>
             <div className={styles.navItem}>
@@ -46,8 +46,8 @@ export const Navbar = ({}: NavbarProps): JSX.Element => {
               </Link>
             </div>
             <div className={styles.navItem}>
-              <Link href="#WhyReva" passHref>
-                <p className={styles.text}>Why</p>
+              <Link href="#Gallery" passHref>
+                <p className={styles.text}>Gallery</p>
               </Link>
             </div>
             <div className={styles.navItem}>

@@ -6,7 +6,7 @@ type CopyrightProps = {};
 export const Copyright = ({}: CopyrightProps): JSX.Element => {
   return (
     <div className={style.container}>
-      Copyright @ 2022 ArtFi. All rights Reserved.
+      Copyright @ 2022 Aarohan Agri Products Pvt Ltd. All rights Reserved.
     </div>
   );
 };

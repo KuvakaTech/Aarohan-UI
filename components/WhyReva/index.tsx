@@ -1,16 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import style from "./WhyReva.module.scss";
-import AboutUs from "../AboutUs";
 
 type WhyRevaProps = {};
 
 export const WhyReva = ({}: WhyRevaProps): JSX.Element => {
   return (
-    <div className={style.container} id="WhyReva">
-      {/* <img src="/RevaBG.png" alt="BG" className={style.background} /> */}
-      <div className={style.revaContainer}>
+    <div className={style.whyReva}>
+      <div className={style.container} id="WhyReva">
         <img src="/WhyReva.png" alt="Why Reva" />
-        <AboutUs />
       </div>
     </div>
   );

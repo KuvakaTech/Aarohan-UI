@@ -5,6 +5,9 @@ import Product from "./Product";
 import Efficacy from "./Efficacy";
 import WhyReva from "./WhyReva";
 import AboutUs from "./AboutUs";
+import Purpose from "./Purpose";
+import Pillars from "./Pillars";
+import Gallery from "./Gallery";
 import Footer from "./Footer";
 import Copyright from "./Copyright";
 
@@ -16,6 +19,9 @@ export {
   Efficacy,
   WhyReva,
   AboutUs,
+  Purpose,
+  Pillars,
+  Gallery,
   Footer,
   Copyright,
 };
