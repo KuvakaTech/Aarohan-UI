@@ -41,7 +41,7 @@ export const Footer = ({}: FooterProps): JSX.Element => {
         <Link href="/">
           <FaFacebookF />
         </Link>
-        <Link href="/">
+        <Link href="https://www.linkedin.com/company/aarohan-agri-products-pvt-ltd/">
           <FaLinkedinIn />
         </Link>
         <Link href="https://www.instagram.com/aarohan.reva">
