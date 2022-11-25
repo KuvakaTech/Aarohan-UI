@@ -38,7 +38,7 @@ export const Footer = ({}: FooterProps): JSX.Element => {
         <Link href="/">
           <FaDiscord />
         </Link>
-        <Link href="/">
+        <Link href="https://www.facebook.com/profile.php?id=100087886398145">
           <FaFacebookF />
         </Link>
         <Link href="https://www.linkedin.com/company/aarohan-agri-products-pvt-ltd/">
