@@ -33,6 +33,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/Oswald/Oswald-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
