@@ -24,6 +24,11 @@ export default function Home() {
           name="description"
           content="Aarohan Agri Products Pvt. Ltd. is one of the leading traders and manufacturers of a commendable variety of agro products, tailored nutritional products and a service provider to its associated sectors."
         />
+        <meta property="og:title" content="Aarohan Agri Products Pvt. Ltd." />
+        <meta
+          property="og:description"
+          content="Aarohan Agri Products Pvt. Ltd. is one of the leading traders and manufacturers of a commendable variety of agro products, tailored nutritional products and a service provider to its associated sectors."
+        />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
